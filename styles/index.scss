@@ -1,5 +1,40 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    //margin-left: 140px;
+    //margin-right: 140px;
+    //margin-top: 49px;
+    background-color: white;
+}
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    background-image: url(/img/grey_back.png);
+    div.logo{       
+        display: flex;
+    }
+    nav{
+        display: flex;
+        width: 438px;       
+        justify-content: space-between;
+        a{
+            color: #000000;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 30px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        div.basket{
+            display: flex;
+            justify-items: flex-end;
+            
+        }
+
+    }
 }
+
