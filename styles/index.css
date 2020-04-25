@@ -19,27 +19,29 @@ header {
           justify-content: space-between;
   background-image: url(/img/grey_back.png);
   width: 1160px;
-  height: 65px;
+  height: 83px;
 }
 
 header div.logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 160px;
+  height: 60px;
 }
 
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 438px;
+  width: 532px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
 header nav a {
   color: #000000;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
@@ -51,7 +53,24 @@ header nav div.basket {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: flex-end;
+  width: 115px;
+}
+
+header nav div.basket i {
+  width: 15px;
+  height: 15px;
+  background-color: #a6a6a6;
+}
+
+header nav div.basket span {
+  width: 74px;
+  height: 13px;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
 }
 
 main {
@@ -89,7 +108,6 @@ main div.bg div.text-main div.span1main {
 
 main div.bg div.text-main div.span2main {
   width: 361px;
-  height: 40px;
   color: #283136;
   font-family: 'Roboto';
   font-size: 16px;
@@ -127,5 +145,6 @@ main div.bg div.text-main div.redbutton a {
 main div.slide1 {
   width: 698px;
   height: 413px;
+  margin-right: 31px;
 }
 /*# sourceMappingURL=index.css.map */
