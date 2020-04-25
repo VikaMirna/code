@@ -18,6 +18,8 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-image: url(/img/grey_back.png);
+  width: 1160px;
+  height: 65px;
 }
 
 header div.logo {
@@ -31,14 +33,13 @@ header nav {
   display: -ms-flexbox;
   display: flex;
   width: 438px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 header nav a {
   color: #000000;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
@@ -51,5 +52,80 @@ header nav div.basket {
   display: -ms-flexbox;
   display: flex;
   justify-items: flex-end;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main div.bg {
+  background-image: url(/img/grey_back.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 413px;
+  width: 1160px;
+}
+
+main div.bg div.text-main div.span1main {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 55px;
+  margin-bottom: 28px;
+}
+
+main div.bg div.text-main div.span2main {
+  width: 361px;
+  height: 40px;
+  color: #283136;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 42px;
+}
+
+main div.bg div.text-main div.redbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 240px;
+  height: 50px;
+  background-color: #fb565a;
+}
+
+main div.bg div.text-main div.redbutton a {
+  width: 132px;
+  height: 13px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+main div.slide1 {
+  width: 698px;
+  height: 413px;
 }
 /*# sourceMappingURL=index.css.map */
